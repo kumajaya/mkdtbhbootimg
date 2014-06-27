@@ -42,3 +42,4 @@ include $(BUILD_EXECUTABLE)
 
 $(call dist-for-goals,dist_files,$(LOCAL_BUILT_MODULE))
 
+include $(LOCAL_PATH)/libfdt/Android.mk
